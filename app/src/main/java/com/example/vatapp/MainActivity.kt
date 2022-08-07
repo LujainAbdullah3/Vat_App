@@ -13,18 +13,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root // reference layout file
-        setContentView(view) // link layout
+        val view = binding.root
+        setContentView(view)
 
         binding.btnCalculateVat.setOnClickListener{
             calculateVat()
-        } // End setOnClickListener
+        }
 
 
-    }// End onCreate
+    }
 
     private fun calculateVat() {
         TODO("Not yet implemented")
     }
 
-}// End MainActivity
+}
